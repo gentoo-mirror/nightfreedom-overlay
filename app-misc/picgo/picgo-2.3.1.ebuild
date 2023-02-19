@@ -4,7 +4,7 @@ EAPI=8
 
 DESCRIPTION="A simple & beautiful tool for pictures uploading built by electron-vue"
 HOMEPAGE="https://github.com/Molunerfinn/PicGo"
-SRC_URI="https://github.com/Molunerfinn/PicGo/releases/download/v{PV}/PicGo-{PV}.AppImage"
+SRC_URI="https://github.com/Molunerfinn/PicGo/releases/download/v${PV}/PicGo-${PV}.AppImage"
 
 LICENSE="MIT"
 SLOT="0"
