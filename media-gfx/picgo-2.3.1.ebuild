@@ -2,9 +2,9 @@
 # Distributed under the terms of the GNU General Public License v2
 EAPI=8
 
-DESCRIPTION="PicGo is a free image upload software for Windows, macOS and Linux"
+DESCRIPTION="A simple & beautiful tool for pictures uploading built by electron-vue"
 HOMEPAGE="https://github.com/Molunerfinn/PicGo"
-SRC_URI="https://github.com/Molunerfinn/PicGo/releases/download/${PV}/PicGo-${PV}.AppImage -> ${P}.AppImage"
+SRC_URI="https://github.com/Molunerfinn/PicGo/releases/download/v{PV}/PicGo-{PV}.AppImage"
 
 LICENSE="MIT"
 SLOT="0"
