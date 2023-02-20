@@ -1297,6 +1297,7 @@ YARN_PKGS=(
 )
 
 yarn_set_globals
+yarn_src_unpack
 yarn_src_prepare
 
 # License of the package.  This must match the name of file(s) in the
