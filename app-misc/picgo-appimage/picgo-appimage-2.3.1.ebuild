@@ -29,7 +29,10 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND="${DEPEND}"
+RDEPEND="
+	${DEPEND}
+	dev-libs/glib
+"
 BDEPEND="
 	sys-fs/fuse:0
 "
