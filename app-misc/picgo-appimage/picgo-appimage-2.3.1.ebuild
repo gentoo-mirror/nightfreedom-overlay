@@ -14,7 +14,7 @@ _ICONS_CONTEXT="apps"
 _ICONS_THEME="hicolor"
 
 _APPROOT="squashfs-root"
-_DESKTOP="${_APPROOT}/${PN}.desktop"
+_DESKTOP="${_APPROOT}/picgo.desktop"
 _USR_DIR="${_APPROOT}/usr"
 _ICONS_DIR="${_USR_DIR}/share/icons"
 
@@ -62,7 +62,7 @@ src_install() {
 	# Icons
 	for icons_dir in "${_ICONS_DIR}/${_ICONS_THEME}/"*; do
 		size="${icons_dir##*/*x}"
-		newicon -s "${size}" -c "${_ICONS_CONTEXT}" -t "${_ICONS_THEME}" "${icons_dir}/${_ICONS_CONTEXT}/${PN}.png" "${PN}.png"
+		newicon -s "${size}" -c "${_ICONS_CONTEXT}" -t "${_ICONS_THEME}" "${icons_dir}/${_ICONS_CONTEXT}/picgo.png" "${PN}.png"
 	done
 
 	# Desktop
