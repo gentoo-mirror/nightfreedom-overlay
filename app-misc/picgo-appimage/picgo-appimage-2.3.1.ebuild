@@ -31,7 +31,7 @@ IUSE=""
 DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND="
-	sys-fs/fuse
+	sys-fs/fuse:0
 "
 S="${WORKDIR}"
 
