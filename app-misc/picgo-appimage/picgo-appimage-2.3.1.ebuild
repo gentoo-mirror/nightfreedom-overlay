@@ -32,6 +32,7 @@ DEPEND=""
 RDEPEND="
 	${DEPEND}
 	dev-libs/glib
+	dev-libs/nss
 "
 BDEPEND="
 	sys-fs/fuse:0
