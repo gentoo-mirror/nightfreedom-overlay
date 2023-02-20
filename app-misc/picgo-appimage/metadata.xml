@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM 'https://www.gentoo.org/dtd/metadata.dtd'>
+<pkgmetadata>
+	<maintainer type="person">
+		<email>edmundleongyokelum@gmail.com</email>
+		<name>Edmund Leong Yook Lum</name>
+		<description>nightfreedom-overlay maintainer</description>
+	</maintainer>
+	<longdescription>A simple and beautiful tool for pictures uploading built by electron-vue</longdescription>
+</pkgmetadata>
