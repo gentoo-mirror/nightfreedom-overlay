@@ -21,7 +21,7 @@ EAPI=8
 #
 # Eclasses tend to list descriptions of how to use their functions properly.
 # Take a look at the eclass/ directory for more examples.
-inherit yarn_picgo
+inherit yarn
 
 # Short one-line description of this package.
 DESCRIPTION="A simple & beautiful tool for pictures uploading built by electron-vue"
