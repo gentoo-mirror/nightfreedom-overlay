@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
-      <name>XXXXX</name>
-      <description lang="en">XXXXXX</description>
-      <homepage>https://github.com/XXXX/xxxx</homepage>
+      <name>nightfreedom-overlayX</name>
+      <description lang="en">Edmund Leong's personal gentoo overlay</description>
+      <homepage>https://github.com/night-every/nightfreedom-overlayx</homepage>
       <owner type="person">
-        <email>XXXXX</email>
-        <name>XXXXX</name>
+        <email>edmundleongyokelum@gmail.com</email>
+        <name>Edmund Leong Yook Lum</name>
       </owner>
-      <source type="git">https://github.com/XXXX/xxxx.git</source>
-      <source type="git">git+ssh://git@github.com/XXXX/xxxx.git</source>
-      <feed>https://github.com/XXXX/xxxx/commits/master.atom</feed>
+      <source type="git">https://github.com/night-every/nightfreedom-overlay.git</source>
+      <source type="git">git@github.com:night-every/nightfreedom-overlay.git</source>
   </repo>
 </repositories>
