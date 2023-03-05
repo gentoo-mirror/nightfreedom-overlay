@@ -33,6 +33,7 @@ RDEPEND="
 	${DEPEND}
 	dev-libs/glib
 	dev-libs/nss
+	app-accessibility/at-spi2-core
 "
 BDEPEND="
 	sys-fs/fuse:0
