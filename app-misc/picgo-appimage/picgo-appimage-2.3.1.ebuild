@@ -34,6 +34,7 @@ RDEPEND="
 	dev-libs/glib
 	dev-libs/nss
 	app-accessibility/at-spi2-core
+	media-libs/alsa-lib
 "
 BDEPEND="
 	sys-fs/fuse:0
