@@ -1,0 +1,13 @@
+BDEPEND=sys-apps/yarn net-libs/nodejs >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst prepare unpack
+DESCRIPTION=A simple & beautiful tool for pictures uploading built by electron-vue
+EAPI=8
+HOMEPAGE=https://github.com/Molunerfinn/PicGo
+INHERIT=git-r3 desktop xdg-utils
+KEYWORDS=~amd64
+LICENSE=MIT
+PROPERTIES=live
+RESTRICT=strip network-sandbox
+SLOT=0
+_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=eb1efaadedb46d91c91c889c35133b26
